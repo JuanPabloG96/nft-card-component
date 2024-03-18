@@ -552,25 +552,8 @@ video {
   display: grid;
 }
 
-.size-8 {
-  width: 2rem;
-  height: 2rem;
-}
-
 .h-screen {
   height: 100vh;
-}
-
-.h-auto {
-  height: auto;
-}
-
-.h-2 {
-  height: 0.5rem;
-}
-
-.h-1 {
-  height: 0.25rem;
 }
 
 .w-10 {
@@ -597,10 +580,6 @@ video {
   place-items: center;
 }
 
-.items-start {
-  align-items: flex-start;
-}
-
 .items-center {
   align-items: center;
 }
@@ -617,32 +596,24 @@ video {
   justify-content: space-between;
 }
 
-.gap-5 {
-  gap: 1.25rem;
-}
-
-.gap-4 {
-  gap: 1rem;
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-3 {
   gap: 0.75rem;
 }
 
-.gap-2 {
-  gap: 0.5rem;
+.gap-4 {
+  gap: 1rem;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
+.gap-5 {
+  gap: 1.25rem;
 }
 
 .rounded-2xl {
   border-radius: 1rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-full {
@@ -653,28 +624,14 @@ video {
   border-width: 1px;
 }
 
-.border-blue-300 {
-  --tw-border-opacity: 1;
-  border-color: rgb(147 197 253 / var(--tw-border-opacity));
-}
-
 .border-line-blue {
   --tw-border-opacity: 1;
   border-color: hsl(215 32% 27% / var(--tw-border-opacity));
 }
 
-.border-soft-blue {
-  --tw-border-opacity: 1;
-  border-color: hsl(215 51% 70% / var(--tw-border-opacity));
-}
-
 .border-white {
   --tw-border-opacity: 1;
   border-color: hsl(0 0% 100% / var(--tw-border-opacity));
-}
-
-.border-opacity-50 {
-  --tw-border-opacity: 0.5;
 }
 
 .bg-dark-blue {
@@ -691,16 +648,12 @@ video {
   padding: 1.25rem;
 }
 
-.p-3 {
-  padding: 0.75rem;
-}
-
 .text-center {
   text-align: center;
 }
 
-.align-middle {
-  vertical-align: middle;
+.font-outfit {
+  font-family: Outfit, san-serif;
 }
 
 .text-xl {
@@ -712,27 +665,12 @@ video {
   font-weight: 700;
 }
 
-.font-semibold {
-  font-weight: 600;
-}
-
 .font-light {
   font-weight: 300;
 }
 
-.text-white {
-  --tw-text-opacity: 1;
-  color: hsl(0 0% 100% / var(--tw-text-opacity));
-}
-
-.text-soft-blue {
-  --tw-text-opacity: 1;
-  color: hsl(215 51% 70% / var(--tw-text-opacity));
-}
-
-.text-line-blue {
-  --tw-text-opacity: 1;
-  color: hsl(215 32% 27% / var(--tw-text-opacity));
+.font-semibold {
+  font-weight: 600;
 }
 
 .text-cyan {
@@ -740,7 +678,12 @@ video {
   color: hsl(178 100% 50% / var(--tw-text-opacity));
 }
 
-.text-gray-500 {
+.text-soft-blue {
   --tw-text-opacity: 1;
-  color: rgb(107 114 128 / var(--tw-text-opacity));
+  color: hsl(215 51% 70% / var(--tw-text-opacity));
+}
+
+.text-white {
+  --tw-text-opacity: 1;
+  color: hsl(0 0% 100% / var(--tw-text-opacity));
 }
